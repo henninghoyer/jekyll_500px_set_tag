@@ -12,13 +12,15 @@ Example:
 
 Default Configuration (override in _config.yml):
 
-  fpx_set:
-    gallery_tag:   'p'
-    gallery_class: 'gallery'
-    a_target:      '_blank'
-    image_rel:     ''
-    feature:       'user'
-    consumer_key:  ''
+```fpx_set:
+fpx_set:
+gallery_tag:   'p'
+gallery_class: 'gallery'
+a_target:      '_blank'
+image_rel:     ''
+feature:       'user'
+consumer_key:  ''
+```
 
 You must provide a Consumer Key in order to query 500px so this _must_ be configured in _config.yml.
 The feature parameter will give you some control over which images are returned by 500px, see their [API Documentation](https://github.com/500px/api-documentation/blob/master/endpoints/photo/GET_photos.md) for more details.

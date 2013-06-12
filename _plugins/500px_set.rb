@@ -15,7 +15,7 @@
 #
 # fpx_set:
 #  gallery_tag:    "p"
-#  gallery_class:  "gallery"
+#  gallery_class:  "fpxgallery"
 #  a_target:       "_blank"
 #  image_rel:      ""
 #  feature:        "user"
@@ -45,7 +45,7 @@ module Jekyll
       @config = Jekyll.configuration({})['fpx_set'] || {}
 
       @config['gallery_tag']   ||= 'p'
-      @config['gallery_class'] ||= 'gallery'
+      @config['gallery_class'] ||= 'fpxgallery'
       @config['a_target']      ||= '_blank'
       @config['image_rel']     ||= ''
       @config['per_page']      ||= ''
